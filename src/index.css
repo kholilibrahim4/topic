@@ -1,6 +1,5 @@
 :root {
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: 'poppinsextralight';
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 
 
-/* 
+
   
     --white-color:                  #ffffff;
     --primary-color:                #13547a;
@@ -48,48 +47,17 @@
     --font-weight-normal:           400;
     --font-weight-medium:           500;
     --font-weight-semibold:         600;
-    --font-weight-bold:             700; */
+    --font-weight-bold:             700;
   }
 /* 
  .navbar {
     background-color: var(--secondary-color);
 } */
 
-@font-face {
-  font-family: 'poppinsextralight';
-  src: url('assets/fonts/poppins-extralight-webfont.woff2') format('woff2'),
-       url('assets/fonts/poppins-extralight-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'poppinsregular';
-  src: url('assets/fonts/poppins-regular-webfont.woff2') format('woff2'),
-       url('assets/fonts/poppins-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-
-
-
-@font-face {
-  font-family: 'poppinssemibold';
-  src: url('assets/fonts/poppins-semibold-webfont.woff2') format('woff2'),
-       url('assets/fonts/poppins-semibold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}  
 
 
 a {
+  font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
